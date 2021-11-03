@@ -49,7 +49,12 @@ function src() {
     path.resolve(distPath, 'manifest.json')
   );
 
+  const copyPopup = fs.copy(
+    path.resolve(srcPath, 'settingsPopup.html'),
+    path.resolve(distPath, 'settingsPopup.html')
+  );
+
   const copyExtensionLogos = fs.copy(path.resolve(srcPath, 'icons'), distPath);
 
-  return Promise.all([copyManifest, copyExtensionLogos, bundleMainScript]);
+  return Promise.all([copyManifest, copyPopup, copyExtensionLogos, bundleMainScript]);
 }

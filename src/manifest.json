@@ -12,13 +12,16 @@
   },
   "content_scripts": [
     {
-      "matches": [
-        "*://*.github.com/*"
-      ],
-      "js": [
-        "./main.js"
-      ],
+      "matches": ["*://*.github.com/*"],
+      "js": ["./main.js"],
       "run_at": "document_start"
     }
-  ]
+  ],
+ "permissions": [
+    "storage"
+  ],
+  "browser_action": {
+    "default_title": "Settings",
+    "default_popup": "settingsPopup.html"
+  }
 }
