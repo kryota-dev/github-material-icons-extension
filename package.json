@@ -13,10 +13,6 @@
   "bugs": {
     "url": "https://github.com/Claudiohbsantos/github-material-icons-extension/issues"
   },
-  "engines": {
-    "node": "^16.0.0",
-    "npm": "^8.0.0"
-  },
   "dependencies": {
     "selector-observer": "2.1.6"
   },
@@ -69,5 +65,12 @@
   "lint-staged": {
     "*.js": "eslint --fix",
     "*": "prettier --write --ignore-unknown"
-  }
+  },
+  "engines": {
+    "node": "^18"
+  },
+  "volta": {
+    "node": "18.20.3"
+  },
+  "packageManager": "pnpm@9.4.0+sha512.f549b8a52c9d2b8536762f99c0722205efc5af913e77835dbccc3b0b0b2ca9e7dc8022b78062c17291c48e88749c70ce88eb5a74f1fa8c4bf5e18bb46c8bd83a"
 }
