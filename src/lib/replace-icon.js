@@ -4,7 +4,6 @@ import languageMap from '../language-map.json';
 
 /**
  * A helper function to check if an object has a key value, without including prooerties from the prototype chain.
- *
  * @see https://eslint.org/docs/latest/rules/no-prototype-builtins
  * @param {object} obj An object to check for a key.
  * @param {string} key A string represeing a key to find in the object.
@@ -16,7 +15,6 @@ function objectHas(obj, key) {
 
 /**
  * Replace file/folder icons.
- *
  * @param {HTMLElement} itemRow Item Row.
  * @param {object} provider Git Provider specs.
  * @param {string | null} iconPack active icon pack. Selectable by user
@@ -89,7 +87,6 @@ export function replaceElementWithIcon(iconEl, iconName, fileName, iconPack, pro
 
 /**
  * Lookup for matched file/folder icon name.
- *
  * @since 1.0.0
  * @param {string} fileName File name.
  * @param {string} lowerFileName Lowercase file name.
@@ -142,7 +139,6 @@ function lookForMatch(fileName, lowerFileName, fileExtensions, isDir, isSubmodul
 
 /**
  * Lookup for matched light file/folder icon name.
- *
  * @since 1.4.0
  * @param {string} iconName Icon name.
  * @param {string} fileName File name.
@@ -165,7 +161,6 @@ function lookForLightMatch(iconName, fileName, fileExtensions, isDir) {
 
 /**
  * Lookup for matched icon from active icon pack.
- *
  * @since 1.4.0
  * @param {string | null} iconPack active icon pack. Selectable by user
  * @param {string} lowerFileName Lowercase file name.
