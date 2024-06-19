@@ -22,7 +22,7 @@
 
 ### About
 
-Mirror of the [Material Icons for GitHub](https://chrome.google.com/webstore/detail/material-icons-for-github/ffclplgdbkpbhjgjdnfphdphhjgjgjhn) extension for Chrome and Firefox.
+Derived from [Material Icons for GitHub](https://github.com/Claudiohbsantos/github-material-icons-extension) created by [Claudiohbsantos](https://github.com/Claudiohbsantos)
 
 Material Icons for GitHub is a browser Extension that enhances repositories file browsers when navigating github.com. Replace default file/folder icons with material design icons tailored to each file type, tool and purpose in the project.
 
@@ -59,9 +59,3 @@ Update language-map.json with latest language contributions.
 ```shell
 pnpm build-languages
 ```
-
----
-
-_Special thanks to [@shivapoudel](https://github.com/shivapoudel) for creating and maintaining the Microsoft Edge version of the extension_
-
-_Original extension developed with [Richard Lam](https://github.com/rlam108)_
