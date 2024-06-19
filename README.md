@@ -31,7 +31,7 @@ Based and dependent on the popular [Material Icon Theme](https://github.com/PKie
 ### Build locally
 
 ```shell
-npm run build
+pnpm build
 ```
 
 ### Development
@@ -39,25 +39,25 @@ npm run build
 Build only files from `src` folder, without re-downloading dependencies from [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme)
 
 ```shell
-npm run build-src
+pnpm build-src
 ```
 
 Rebuild extension logos from `src/logo.svg`. Only needed when `src/logo.svg` is changed.
 
 ```shell
-npm run rebuild-logos
+pnpm rebuild-logos
 ```
 
 Zip `dist` folder for upload to Chrome Web Store and Firefox. _This script needs Zip to be available on PATH_
 
 ```shell
-npm run bundle
+pnpm bundle
 ```
 
 Update language-map.json with latest language contributions.
 
 ```shell
-npm run build-languages
+pnpm build-languages
 ```
 
 ---
