@@ -17,7 +17,6 @@ fs.ensureDir(iconsPath).then(generateIcons);
 
 /**
  * Generate extension icons.
- *
  * @since 1.4.0
  */
 function generateIcons() {

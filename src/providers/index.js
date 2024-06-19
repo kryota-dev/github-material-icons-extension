@@ -31,7 +31,6 @@ function regExpEscape(str) {
 
 /**
  * Add custom git provider
- *
  * @param {string} name
  * @param {string|CallableFunction} handler
  */
@@ -64,7 +63,6 @@ export const getGitProviders = () =>
 
 /**
  * Get all selectors and functions specific to the Git provider
- *
  * @param {string} href Url of current tab
  * @param domain
  * @returns {object} All of the values needed for the provider
