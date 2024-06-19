@@ -18,6 +18,7 @@ export const providerConfig = {
 
 /**
  * Get all selectors and functions specific to the Git provider
+ *
  * @param {string} href Url of current tab
  * @returns {object} All of the values needed for the provider
  */
