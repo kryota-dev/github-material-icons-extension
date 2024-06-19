@@ -36,6 +36,7 @@
     "parcel-bundler": "1.12.5",
     "prettier": "3.3.2",
     "rimraf": "3.0.2",
+    "selector-set": "1.1.5",
     "sharp": "0.28.3",
     "simple-git": "2.40.0",
     "svgo": "2.3.1",
