@@ -11,7 +11,6 @@ const upstreamCommitFilePath = path.resolve(__dirname, '..', 'upstream.commit');
  * Gets latest VSCode Extension release version by parsing it's most recent 100 commit msgs
  *
  * returns version string or undefined
- *
  * @returns {Promise<string>} The current version of the upstream repository.
  */
 const getUpstreamVersion = () =>
