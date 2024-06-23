@@ -3,15 +3,15 @@
   "version": "1.8.15",
   "description": "Browser Extension that enhances the GitHub file browser with material icons.",
   "main": "src/main.js",
-  "author": "Claudio Santos",
+  "author": "Ryota Kaneko",
   "license": "MIT",
-  "homepage": "https://github.com/Claudiohbsantos/github-material-icons-extension#readme",
+  "homepage": "https://github.com/kryota-dev/github-material-icons-extension#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Claudiohbsantos/github-material-icons-extension.git"
+    "url": "git+https://github.com/kryota-dev/github-material-icons-extension.git"
   },
   "bugs": {
-    "url": "https://github.com/Claudiohbsantos/github-material-icons-extension/issues"
+    "url": "https://github.com/kryota-dev/github-material-icons-extension/issues"
   },
   "engines": {
     "node": "^18"
