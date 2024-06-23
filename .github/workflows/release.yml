@@ -19,7 +19,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup pnpm
-        uses: ./github/actions/pnpm-setup
+        uses: ./.github/actions/pnpm-setup
 
       - name: build extension
         if: ${{ github.event.inputs.onlyUpload != 'not' && github.event.inputs.onlyUpload != 'none' }}
