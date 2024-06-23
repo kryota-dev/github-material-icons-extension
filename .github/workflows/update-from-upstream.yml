@@ -19,7 +19,7 @@ jobs:
           echo ::set-output name=current_tag::$(<upstream.version)
 
       - name: Setup pnpm
-        uses: ./github/actions/pnpm-setup
+        uses: ./.github/actions/pnpm-setup
 
       - name: Setup bun
         uses: oven-sh/setup-bun@v1
