@@ -21,6 +21,11 @@ jobs:
       - name: Setup pnpm
         uses: ./github/actions/pnpm-setup
 
+      - name: Setup bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
       - name: Attempt update
         if: steps.upstream.outputs.release_tag != steps.upstream.outputs.current_tag
         env:
