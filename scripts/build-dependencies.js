@@ -43,17 +43,17 @@ async function main() {
   console.log('[2/7] Terminate Git repository in temporary cache.');
   await fs.remove(path.resolve(vsExtPath, '.git'));
 
-  console.log('[3/7] Install PNPM dependencies for VSC extension.');
-  execSync(`pnpm install --ignore-scripts`, vsExtExecOptions);
+  console.log('[3/7] Install bun dependencies for VSC extension.');
+  execSync(`bun install --ignore-scripts`, vsExtExecOptions);
 
   console.log('[4/7] Terminate Git tracking in temporary cache.');
   await fs.copy(path.resolve(vsExtPath, 'icons'), path.resolve(destSVGPath));
 
   console.log('[5/7] Optimise extension icons using SVGO.');
-  execSync(`npx svgo -r .`, distIconsExecOptions);
+  execSync(`bunx svgo -r .`, distIconsExecOptions);
 
   console.log('[6/7] Run build tasks for VSC extension.');
-  execSync(`pnpm run build`, vsExtExecOptions);
+  execSync(`bun run build`, vsExtExecOptions);
 
   console.log('[7/7] Copy file icon configuration to source code directory.');
   await fs.copy(

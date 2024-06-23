@@ -22,7 +22,7 @@
 
 ### About
 
-Mirror of the [Material Icons for GitHub](https://chrome.google.com/webstore/detail/material-icons-for-github/ffclplgdbkpbhjgjdnfphdphhjgjgjhn) extension for Chrome and Firefox.
+Derived from [Material Icons for GitHub](https://github.com/Claudiohbsantos/github-material-icons-extension) created by [Claudiohbsantos](https://github.com/Claudiohbsantos)
 
 Material Icons for GitHub is a browser Extension that enhances repositories file browsers when navigating github.com. Replace default file/folder icons with material design icons tailored to each file type, tool and purpose in the project.
 
@@ -31,7 +31,7 @@ Based and dependent on the popular [Material Icon Theme](https://github.com/PKie
 ### Build locally
 
 ```shell
-npm run build
+pnpm build
 ```
 
 ### Development
@@ -39,29 +39,23 @@ npm run build
 Build only files from `src` folder, without re-downloading dependencies from [Material Icon Theme](https://github.com/PKief/vscode-material-icon-theme)
 
 ```shell
-npm run build-src
+pnpm build-src
 ```
 
 Rebuild extension logos from `src/logo.svg`. Only needed when `src/logo.svg` is changed.
 
 ```shell
-npm run rebuild-logos
+pnpm rebuild-logos
 ```
 
 Zip `dist` folder for upload to Chrome Web Store and Firefox. _This script needs Zip to be available on PATH_
 
 ```shell
-npm run bundle
+pnpm bundle
 ```
 
 Update language-map.json with latest language contributions.
 
 ```shell
-npm run build-languages
+pnpm build-languages
 ```
-
----
-
-_Special thanks to [@shivapoudel](https://github.com/shivapoudel) for creating and maintaining the Microsoft Edge version of the extension_
-
-_Original extension developed with [Richard Lam](https://github.com/rlam108)_
