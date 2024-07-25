@@ -1,6 +1,6 @@
 {
   "name": "Material Icons for GitHub",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Replace the file/folder icons on the GitHub file browser with icons representing the file's type and which tool it is used by.",
   "homepage_url": "https://github.com/kryota-dev/github-material-icons-extension",
   "icons": {
